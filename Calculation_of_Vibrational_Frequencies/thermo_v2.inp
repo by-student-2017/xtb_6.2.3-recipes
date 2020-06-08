@@ -1,0 +1,6 @@
+$thermo
+    temp=real
+        temperature for thermostatistical calculation (default: 298.15 K)
+
+    sthr=real
+        rotor cut-off (cm-1) in thermo (default: 50.0)

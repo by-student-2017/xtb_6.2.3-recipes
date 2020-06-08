@@ -1,0 +1,18 @@
+$hess
+    sccacc=real
+        SCC accuracy level in Hessian runs
+
+    step=real
+        Cartesian displacement increment for numerical Hessian
+
+    isotope: int,real
+        set mass of atom number int to real (synonym to modify mass)
+
+    modify mass: int,real
+        set mass of atom number int to real (synonym to isotope)
+
+    scale mass: int,real
+        scale mass of atom number int by real
+
+    element mass: int,real
+        set mass of elements int to real

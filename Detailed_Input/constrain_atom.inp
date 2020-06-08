@@ -1,0 +1,4 @@
+$constrain
+   atoms: 11
+   elements: C,N,8
+$end

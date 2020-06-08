@@ -1,0 +1,11 @@
+$constrain
+   force constant=0.5
+   distance: 1, 2, 0.5
+   angle: 4, 1, 3, 140.0
+   dihedral: 2, 1, 3, 4, auto
+$scan
+   mode=sequential
+   2: 140.0, 90.0, 40
+   1: 0.5, 2.0, 60
+$opt
+   maxcycle=5

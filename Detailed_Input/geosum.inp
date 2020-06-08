@@ -1,0 +1,5 @@
+$write
+   distances=true
+   angles=true
+   torsions=true
+$end

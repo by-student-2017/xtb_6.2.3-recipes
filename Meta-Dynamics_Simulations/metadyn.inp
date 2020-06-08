@@ -1,0 +1,5 @@
+$metadyn
+   save=10
+   kpush=1.0
+   alp=0.2
+$end
