@@ -7,6 +7,9 @@
 Usage
 
 
+0. sudo apt install -y jmol
+
+
 1. cp -r xtb_6.2.3 $HOME/xtb_6.2.3
 
 
@@ -16,13 +19,22 @@ Usage
 3. cd xtb_6.2.3-recipes
 
 
-(3.5. ./setenv.sh) (When you not set xtb path)
+(3.1. chmod +x /setenv.sh (When you not set xtb path))
+
+
+(3.2. ./setenv.sh (When you not set xtb path))
 
 
 4. cd Molecular_Dyamics_Simulations
 
 
-5. ./run.sh
+5. chmod +x ./run.sh
+
+
+6. ./run.sh
+
+
+7. jmol *opt.xyz (if optimized xyz file exist)
 
 
 Please, see "Online User Guide (https://xtb-docs.readthedocs.io/en/latest/contents.html)"
